@@ -27,7 +27,31 @@ var usuario = {
     "nombre": 'Daniel',
     apellido: 'Aucatoma',
     edad    : 21,
+    imprimir: function(){
+        console.log(this.edad + " " + this.apellido)
+    }
 };
-
+delete usuario.edad
+usuario.edad = 21
+usuario.fechaNacimiento = new Date()
+usuario.mascotas = {}
+usuario.mascotas.nombre = ""
 console.log(usuario.nombre + " " + usuario.apellido + "\n");
 console.log(usuario);
+
+var arreglo = Array("Hola", "mundo", new Date())
+console.log(arreglo)
+
+function sumarNumeros(a, b){
+    return a + b
+}
+
+function potenciaNumero(num, pot){
+    return num ** pot
+}
+
+var potencia = function(a, b){ return a ** b }
+
+console.log(sumarNumeros(1, 2.21))
+console.log(potenciaNumero(2, 2) +' , '+ potencia(3, 4))
+usuario.imprimir()
