@@ -1,5 +1,5 @@
 
-var array = Array("Hola", "Mundo", 1, 2, "En", "JS", Array(1, 2, 3), {nombre: "Daniel", correo: "daniel@mail.com"});
+var array = Array("Hola", "Mundo", 1, 2, "En", "JS", Array(1, 2, 3), {nombre: "Daniel", correo: "hola.com"});
 
 function validarNumeroDeStringsEnArreglo(arreglo){
     var numStrings = 0;
