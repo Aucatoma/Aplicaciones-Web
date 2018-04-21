@@ -54,4 +54,10 @@ var potencia = function(a, b){ return a ** b }
 
 console.log(sumarNumeros(1, 2.21))
 console.log(potenciaNumero(2, 2) +' , '+ potencia(3, 4))
-usuario.imprimir()
+console.log(usuario.imprimir)
+function a(a, b){
+    b = a(1, 2)
+    return b
+}
+
+console.log(a(sumarNumeros, x))
